@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV | Dr. Andrew Picot Conaboy</title>
+
+    <meta name="description"
+          content="Curriculum vitae of Dr. Andrew Picot Conaboy, data analyst and experimental particle physicist.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .cv-header {
+            margin-bottom: 3rem;
+        }
+
+        .cv-header h1 {
+            margin-bottom: 0.25rem;
+        }
+
+        .cv-subtitle {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: #555;
+        }
+
+        .cv-contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .cv-section {
+            margin-top: 3rem;
+        }
+
+        .cv-entry {
+            margin-top: 1.5rem;
+        }
+
+        .cv-entry-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            align-items: baseline;
+        }
+
+        .cv-entry-header h3 {
+            margin: 0;
+        }
+
+        .cv-entry-meta {
+            margin: 0.2rem 0 0.8rem;
+            color: #555;
+        }
+
+        .cv-date {
+            white-space: nowrap;
+            color: #555;
+        }
+
+        .cv-entry ul,
+        .cv-section ul {
+            padding-left: 1.3rem;
+        }
+
+        .cv-entry li,
+        .cv-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .home-menu {
+            position: fixed;
+            top: 1.25rem;
+            left: 1.25rem;
+            width: 28px;
+            height: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-decoration: none;
+            opacity: 0.75;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .home-menu:hover {
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        .home-menu span {
+            display: block;
+            height: 3px;
+            background: #222;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 650px) {
+            .cv-entry-header {
+                display: block;
+            }
+
+            .cv-date {
+                display: block;
+                margin-top: 0.25rem;
+            }
+
+            .home-menu {
+                position: absolute;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="index.html" class="home-menu" aria-label="Home">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+
+<main>
+
+    <header class="cv-header">
+        <h1>Andrew Picot Conaboy</h1>
+        <p class="cv-subtitle">Data Analyst</p>
+
+        <div class="cv-contact">
+            andrewpicotconaboy(at)protonmail.com
+            <a href="https://github.com/AConaboy">GitHub</a>
+        </div>
+    </header>
+
+    <section class="cv-section">
+        <h2>Profile</h2>
+
+        <p>
+            I am a highly skilled data analyst with extensive experience in
+            computational analysis, statistical modelling, and data management.
+            My work in experimental particle physics, combined with a deep
+            understanding of statistical techniques, allows me to deliver
+            high-quality analysis to inform decision-making processes.
+        </p>
+    </section>
+
+    <section class="cv-section">
+        <h2>Education and Research</h2>
+
+        <div class="cv-entry">
+            <div class="cv-entry-header">
+                <h3>Physics PhD</h3>
+                <span class="cv-date">January 2021 – Present</span>
+            </div>
+
+            <p class="cv-entry-meta">Humboldt Universität zu Berlin</p>
+
+            <ul>
+                <li>
+                    Thesis working title: <em>Timing performance studies of
+                    hadronic calorimeter of the Scattering and Neutrino Detector
+                    at the Large Hadron Collider (SND@LHC) and studies of
+                    neutrino scattering kinematics.</em>
+                </li>
+
+                <li>
+                    Calibration of the timing response of SND@LHC required
+                    analysis of large datasets to model multivariate trends in
+                    the 600 silicon photomultipliers (SiPMs).
+                </li>
+
+                <li>
+                    I developed expertise in managing large-scale datasets,
+                    using Python and C++ for statistical modelling, applying both
+                    frequentist and Bayesian analysis techniques.
+                </li>
+
+                <li>
+                    Regularly presented complex statistical analyses to diverse
+                    audiences within the experimental collaboration and
+                    scientific community, explaining results to both specialists
+                    and non-specialists, demonstrating my ability to translate
+                    technical insights into accessible recommendations.
+                </li>
+
+                <li>
+                    In my role as an advisor to MSc and BSc students, I honed
+                    leadership and project management skills, guiding students
+                    to meet academic and project deadlines.
+                </li>
+
+                <li>
+                    Involved in papers published in major journals of
+                    experimental particle physics.
+                </li>
+            </ul>
+        </div>
+
+        <div class="cv-entry">
+            <div class="cv-entry-header">
+                <h3>Master of Physics, MPhys</h3>
+                <span class="cv-date">September 2015 – July 2020</span>
+            </div>
+
+            <p class="cv-entry-meta">University of Edinburgh</p>
+
+            <ul>
+                <li>
+                    Master’s thesis involved assisting the first observation of
+                    the 2923 MeV charmed Ξ<sub>c</sub> baryon on the LHCb
+                    experiment at CERN. The work was C++ intensive data analysis,
+                    model fitting and hypothesis testing, with results
+                    communicated to my supervisor and the LHCb charm physics
+                    working group.
+                </li>
+
+                <li>
+                    Studied courses in data analysis and visualisation using
+                    Python and key packages including NumPy, SciPy and Matplotlib.
+                </li>
+
+                <li>
+                    Produced group projects on topics including stellar
+                    nucleosynthesis and the 1951 nuclear test Greenhouse George,
+                    where I wrote about the technical details of detonating a
+                    two-stage nuclear device.
+                </li>
+
+                <li>
+                    Studied statistics and statistical physics as standalone
+                    courses, providing a strong theoretical background for
+                    producing statistical analyses.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cv-section">
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>
+                Very experienced in Python, C++, Shell, Git, LaTeX, NumPy,
+                SciPy, Matplotlib, CERN’s ROOT framework, and high-throughput
+                parallel computing using the HTCondor infrastructure.
+            </li>
+
+            <li>
+                SciKit and TensorFlow projects undertaken between my MPhys and
+                PhD to diversify my skill set.
+            </li>
+
+            <li>
+                Experience in both frequentist probability
+                hypothesis/significance testing and Bayesian probability
+                analysis.
+            </li>
+        </ul>
+    </section>
+
+    <section class="cv-section">
+        <h2>Conferences and Presentations</h2>
+
+        <ul>
+            <li>Large Hadron Collider Committee student’s poster session.</li>
+            <li>2024 Lake Louise Winter Institute presentation.</li>
+            <li>
+                Presentations at many experimental collaboration meetings,
+                2021–2024. Available upon request.
+            </li>
+            <li>
+                CERN Thematic School of Computing 2022, Corsica, France,
+                centred on heterogeneous computing architectures.
+            </li>
+            <li>
+                Experience presenting complex scientific and statistical ideas
+                to audiences of varied backgrounds allows me to extract a great
+                deal of usefulness from presentation sessions.
+            </li>
+        </ul>
+    </section>
+
+    <section class="cv-section">
+        <p><em>References available upon request.</em></p>
+    </section>
+
+</main>
+
+</body>
+</html>
