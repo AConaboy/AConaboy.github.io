@@ -34,3 +34,13 @@ a {
 nav {
     margin-bottom: 3rem;
 }
+
+.home-menu {
+    opacity: 0.75;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.home-menu:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
